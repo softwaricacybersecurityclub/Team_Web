@@ -7,16 +7,13 @@
 - [ ] Python Crash Course for absolute Beginner
 - [ ] Web Related cyber attack and possible vulneriblitiesattack and possible vulneriblities..%%
 
-## Java Script
+# Java Script
+
 *Starting with printing hello world!*
 ```javascript
 console.log("Hello world!");
 ``` 
 
-### Alert in Java Script
-```javascript
-alert("Hello world!");
-```
 
 ### Variables and Data types
 ```javascript
@@ -73,7 +70,7 @@ const s = 'softwarica, islington, herald, texas';
 console.log(s.split(', '));
 ```
 
-*Arrays*
+### Arrays in JavaScript
 ```javascript
 const devices=['Laptop','Desktop','Mobile','Printer',15];
 console.log(devices);
@@ -101,7 +98,7 @@ console.log(devices.indexOf('Mobile'));
 
 ```
 
- *Loops in JavaScript*
+### Loops in JavaScript
 ```javascript
 for loops
 for (let i=0; i<=10; i++ ) 
@@ -153,10 +150,96 @@ console.log(todolist);
 
 filter
 
-const 
+const listCompleted =list.filter(function(todo)){
+	return listCompleted == true;
+});
+
+console.log(listCompleted);
 
 
 
 
 
+```
+### Conditional Statements 
+```javascript
+const x=10;
+
+if(x == 10){
+console.log('x is 10');
+}
+else if (x> 10){
+	console.log('x is greater than 10')
+{
+else{
+console.log('x is not equal to 10')
+}
+
+Another Example
+
+const x=6;
+const y=11;
+
+if(x>5 && y>10){
+console.log('x is more than 5 and y is more than 10')
+}
+
+Ternary Operator
+
+const age = 18;
+
+const Eligible = age >= 18  ? 'eligible': 'Not eligible';
+console.log(eligible)
+
+Another Example
+const age = 18;
+
+const Eligible = age >= 18  ? 'eligible': 'Not eligible';
+
+switch(Eligible){
+	case 'eligible':
+		console.log('You Are eligible to vote');
+		break;
+	case 'Not eligible':
+		console.log('You Are Not eligible to vote');
+		break;
+	default:
+	console.log('Please Enter your correct age');
+		break;
+}
+
+```
+### Functions in JavaScript
+```JavaScript
+function addNums(num1,num2){
+console.log(num1 + num2);
+}
+addNums(5,5);
+
+Return type function
+function addNums(num1,num2){
+ return num1 + num2;
+}
+console.log(addNums(5,5));
+```
+
+### Interaction - (Alert, Prompt, Confirm) in JavaScript
+```javascript
+Alert
+alert("Hello, My name is Nikesh Uprety"); - alert doesnot return anything
+
+Prompt
+
+let name = promt("Whats is your name?","Guest");
+console.log(name);
+
+Confirm
+
+let exit=confirm("Do you really want to exit?");
+if (exit){
+console.log("You have exited successfully");
+}
+else{
+console.log("You haven't exited successfully");
+}
 ```
