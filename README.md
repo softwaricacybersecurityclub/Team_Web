@@ -1,32 +1,13 @@
 # Team_Web
 
+ ##### Hello from the Team Web. Now onwards we are here to post our daily activities and contribution that we performed. 
 
-Hello from the Team Web. Now onwards we are here to post our daily activities and contribution that we performed. 
+![](https://cdn.pixabay.com/photo/2022/05/14/03/34/hacker-7194843_1280.png)
 
-
------------------------------------------------->  ------------------------------------------------------------------------------------------------------>
-
-Our team Members Include:
-
-- Roji
--Nikesh
--Sushmita
+```
+Uploads: https://github.com/softwaricacybersecurityclub/Team_Web
 
 
------------------------------------------------> ------------------------------------------------------------------------------------------------------------->
-
-
-At very begining we are targeting to buld a website using HTML, CSS and JAVA script and understand how the fundamentals for website works !!!
-
-
-Our progress report is present in our repo. Please Go and Check :)
-
-
-----------------------> ------------------------------------------------>------------------------------------------------------------------------------>
-
-
-(Uplodas)
-
-1) Tindog Website
-2) Java Script Crash Course
+“While they are busy with reconnaissance, focus on exploitation.
+PS : reconnaissance is an ESSENTIAL phase.”
 
