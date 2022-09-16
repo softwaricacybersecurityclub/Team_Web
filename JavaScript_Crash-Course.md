@@ -1,11 +1,4 @@
-%%# Topics That I finished
-- [o] Git and Github
-- [o] Html Crash Course for Absolute Beginner 
-- [o] Css Crash Course for Absolute Beginner
-# Todays Points to wrap up
-- [ ] JavaScript Crash Course for Absolute Beginner
-- [ ] Python Crash Course for absolute Beginner
-- [ ] Web Related cyber attack and possible vulneriblitiesattack and possible vulneriblities..%%
+
 
 # Java Script
 
