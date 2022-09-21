@@ -13,7 +13,7 @@ A web page is a document that can be either displayed in the browser window or a
 
 When you create a script, whether inline in a script element or included in the web page, you can immediately begin using the API for the document or window objects to manipulate the document itself, or any of the various elements in the web page (the descendant elements of the document). Your DOM programming may be something as simple as the following example, which displays a message on the console by using the console.log() function:
 
-```
+```js
 <body>
 
 document.querySelector("h1").innerHTML="Good Morning";
@@ -31,7 +31,7 @@ As, we Know Java Script(JS) helps for the behavior of the Website just like that
 
 ### Lets Understand from the following Codes below:
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -68,13 +68,13 @@ There are few different majors of selecting the HTML element in document some ar
 
 In HTML, ids are used as unique identifiers for the HTML elements. This means you cannot have the same id name for two different elements.
 
-```
+```js
 <p id="para1">This is my first paragraph.</p>
 <p id="para2">This is my second paragraph.</p>
 ```
 In JavaScript, we can grab an HTML tag by referencing the id name.
 
-```
+```js
 document.getElementById("id name goes here")
 
 ```
@@ -85,7 +85,7 @@ document.getElementById("id name goes here")
 In HTML , class are used as an identifiers for the HTML elementes. In the class you can have multiple values of smae class in different HTML elements.
 
 
-```
+```js
 <p id="sushmita">This is my first paragraph.</p>
 <p id="sushmita">This is my second paragraph.</p>
 
@@ -93,7 +93,7 @@ In HTML , class are used as an identifiers for the HTML elementes. In the class 
 
 In JavaScript, we can grab an HTML tag by referencing the class name.
 
-```
+```js
 document.getElementById("id name goes here")
 ```
 
@@ -104,7 +104,7 @@ You can use this method to find elements with one or more CSS selectors.
 I have created this HTML example of my friends:
 
 
-```
+```js
 
 <h1>Sushmita Friends</h1>
 <ul class="list">
@@ -118,7 +118,7 @@ I have created this HTML example of my friends:
 
 If I wanted to find and print to the console the h1 element, then I could use that tag name inside the querySelector().
 
-```
+```js
 const h1Element = document.querySelector("h1");
 console.log(h1Element);
 ```
@@ -135,7 +135,7 @@ console.log(h1Element);
 
 ### Some JS to say you Bye 😂👋
 
-```
+```js
 <script>
 
 <h1 id="bye-bye-people"> It was nice to meet you and hope you enjoy Learning !</h1>
